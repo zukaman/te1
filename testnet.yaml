@@ -1,0 +1,20 @@
+Network: "testnet"
+Bootstrap:
+  Dcap:
+    ChainID: 1398243
+    ChainURL: "https://1rpc.io/ata/testnet"
+    ChainWSURL: "wss://1rpc.io/ata/testnet"
+    ContractAddress: "0xefE368b17D137E86298eec8EbC5502fb56d27832"
+  NodeCtrl:
+    ChainID: 5611
+    ChainURL: "http://138.201.84.237:8545"
+    ChainWSURL: "ws://138.201.84.237:8546"
+    ContractAddress: "0x1F59347c5998a8Bb5E5f3ba8ec20c030CA5dd1D2"
+  License:
+    ChainID: 5611
+    ChainURL: "http://138.201.84.237:8545"
+    ChainWSURL: "ws://138.201.84.237:8546"
+    ContractAddress: "0xb813466384c915280f5b8ffa005fcc2cb5cf5b87"
+  HeartbeatURL: "https://greenfield.onebitdev.com/glacier-node/api/nodes/:id/heartbeat"
+TEE:
+  IpfsURL: "https://greenfield.onebitdev.com/ipfs/"
